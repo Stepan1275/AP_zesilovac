@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPA3116D2DADR:TPA3116D2DADR U?
+U 1 1 5FDB195A
+P 5100 3650
+F 0 "U?" H 5100 5320 50  0000 C CNN
+F 1 "TPA3116D2DADR" H 5100 5229 50  0000 C CNN
+F 2 "SOP65P810X115-33N" H 5100 3650 50  0001 L BNN
+F 3 "" H 5100 3650 50  0001 L BNN
+	1    5100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDB2FD8
+P 5800 5050
+F 0 "#PWR?" H 5800 4800 50  0001 C CNN
+F 1 "GND" H 5805 4877 50  0000 C CNN
+F 2 "" H 5800 5050 50  0001 C CNN
+F 3 "" H 5800 5050 50  0001 C CNN
+	1    5800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDB3847
+P 5850 4950
+F 0 "#PWR?" H 5850 4700 50  0001 C CNN
+F 1 "GND" H 5855 4777 50  0000 C CNN
+F 2 "" H 5850 4950 50  0001 C CNN
+F 3 "" H 5850 4950 50  0001 C CNN
+	1    5850 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4950 5850 4950
+$Comp
+L power:GND #PWR?
+U 1 1 5FDB413C
+P 5900 4850
+F 0 "#PWR?" H 5900 4600 50  0001 C CNN
+F 1 "GND" H 5905 4677 50  0000 C CNN
+F 2 "" H 5900 4850 50  0001 C CNN
+F 3 "" H 5900 4850 50  0001 C CNN
+	1    5900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDB457A
+P 5950 4750
+F 0 "#PWR?" H 5950 4500 50  0001 C CNN
+F 1 "GND" H 5955 4577 50  0000 C CNN
+F 2 "" H 5950 4750 50  0001 C CNN
+F 3 "" H 5950 4750 50  0001 C CNN
+	1    5950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4850 5900 4850
+Wire Wire Line
+	5800 4750 5950 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5FDB4A25
+P 4300 3850
+F 0 "#PWR?" H 4300 3600 50  0001 C CNN
+F 1 "GND" H 4305 3677 50  0000 C CNN
+F 2 "" H 4300 3850 50  0001 C CNN
+F 3 "" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3850 4400 3850
+$Comp
+L Connector:AudioJack2_Ground J?
+U 1 1 5FDB6757
+P 3250 3900
+F 0 "J?" H 3282 4225 50  0000 C CNN
+F 1 "AudioJack2_Ground" H 3282 4134 50  0000 C CNN
+F 2 "" H 3250 3900 50  0001 C CNN
+F 3 "~" H 3250 3900 50  0001 C CNN
+	1    3250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4150 4200 4150
+Wire Wire Line
+	4400 3650 4200 3650
+$Comp
+L Device:C C?
+U 1 1 5FDB9890
+P 3850 4150
+F 0 "C?" H 3965 4196 50  0000 L CNN
+F 1 "C" H 3965 4105 50  0000 L CNN
+F 2 "" H 3888 4000 50  0001 C CNN
+F 3 "~" H 3850 4150 50  0001 C CNN
+	1    3850 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 4150 4200 4150
+Connection ~ 4200 4150
+Wire Wire Line
+	3700 4150 3250 4150
+Wire Wire Line
+	4200 3650 4200 4150
+Wire Wire Line
+	3250 4150 3250 4100
+$Comp
+L Device:C C?
+U 1 1 5FDBE398
+P 3150 4250
+F 0 "C?" V 2898 4250 50  0000 C CNN
+F 1 "C" V 2989 4250 50  0000 C CNN
+F 2 "" H 3188 4100 50  0001 C CNN
+F 3 "~" H 3150 4250 50  0001 C CNN
+	1    3150 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDBFEBF
+P 3950 3750
+F 0 "C?" V 3698 3750 50  0000 C CNN
+F 1 "C" V 3789 3750 50  0000 C CNN
+F 2 "" H 3988 3600 50  0001 C CNN
+F 3 "~" H 3950 3750 50  0001 C CNN
+	1    3950 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 4250 4400 4250
+Wire Wire Line
+	3000 4250 3000 3700
+Wire Wire Line
+	3000 3700 3500 3700
+Wire Wire Line
+	3500 3700 3500 3800
+Wire Wire Line
+	3500 3800 3450 3800
+Wire Wire Line
+	3800 3750 3650 3750
+Wire Wire Line
+	3650 3750 3650 3900
+Wire Wire Line
+	3650 3900 3450 3900
+Wire Wire Line
+	4100 3750 4400 3750
+Wire Wire Line
+	4400 4350 4350 4350
+Wire Wire Line
+	4350 4350 4350 5300
+Wire Wire Line
+	4350 5300 6050 5300
+Wire Wire Line
+	6050 5300 6050 2850
+Wire Wire Line
+	6050 2850 5800 2850
+$Comp
+L Device:R R?
+U 1 1 5FDC2794
+P 6250 2850
+F 0 "R?" V 6043 2850 50  0000 C CNN
+F 1 "R" V 6134 2850 50  0000 C CNN
+F 2 "" V 6180 2850 50  0001 C CNN
+F 3 "~" H 6250 2850 50  0001 C CNN
+	1    6250 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 2850 6100 2850
+Connection ~ 6050 2850
+$Comp
+L Device:R R?
+U 1 1 5FDC36F6
+P 6850 2850
+F 0 "R?" V 6643 2850 50  0000 C CNN
+F 1 "R" V 6734 2850 50  0000 C CNN
+F 2 "" V 6780 2850 50  0001 C CNN
+F 3 "~" H 6850 2850 50  0001 C CNN
+	1    6850 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Polarized C?
+U 1 1 5FDC40FB
+P 3550 2750
+F 0 "C?" H 3668 2796 50  0000 L CNN
+F 1 "C_Polarized" H 3668 2705 50  0000 L CNN
+F 2 "" H 3588 2600 50  0001 C CNN
+F 3 "~" H 3550 2750 50  0001 C CNN
+	1    3550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Potentiometer_Dual_Separate RV?
+U 1 1 5FDC4F14
+P 4000 1700
+F 0 "RV?" H 3931 1746 50  0000 R CNN
+F 1 "R_Potentiometer_Dual_Separate" H 3931 1655 50  0000 R CNN
+F 2 "" H 4000 1700 50  0001 C CNN
+F 3 "~" H 4000 1700 50  0001 C CNN
+	1    4000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Potentiometer_Dual_Separate RV?
+U 2 1 5FDC6EFB
+P 4000 2100
+F 0 "RV?" H 3931 2146 50  0000 R CNN
+F 1 "R_Potentiometer_Dual_Separate" H 3931 2055 50  0000 R CNN
+F 2 "" H 4000 2100 50  0001 C CNN
+F 3 "~" H 4000 2100 50  0001 C CNN
+	2    4000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5FDC98DC
+P 6650 2250
+F 0 "J?" H 6622 2132 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 6622 2223 50  0000 R CNN
+F 2 "" H 6650 2250 50  0001 C CNN
+F 3 "~" H 6650 2250 50  0001 C CNN
+	1    6650 2250
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
