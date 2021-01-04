@@ -1237,14 +1237,14 @@ Wire Wire Line
 Wire Wire Line
 	3150 4100 3150 4150
 $Comp
-L Connector:AudioJack2_Ground J?
-U 1 1 5FF3AD91
-P 1800 3750
-F 0 "J?" H 1832 4075 50  0000 C CNN
-F 1 "AudioJack2_Ground" H 1832 3984 50  0000 C CNN
-F 2 "" H 1800 3750 50  0001 C CNN
-F 3 "~" H 1800 3750 50  0001 C CNN
-	1    1800 3750
+L Connector:AudioJack3 J2
+U 1 1 5FF44B85
+P 1100 3100
+F 0 "J2" H 1082 3425 50  0000 C CNN
+F 1 "AudioJack3" H 1082 3334 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 1100 3100 50  0001 C CNN
+F 3 "~" H 1100 3100 50  0001 C CNN
+	1    1100 3100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
