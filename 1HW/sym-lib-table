@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name TPA3116D2DADR)(type Legacy)(uri /Users/martinpoupa/Downloads/TPA3116D2DADR/TPA3116D2DADR.lib)(options "")(descr ""))
-  (lib (name AP_zesilovac-rescue)(type Legacy)(uri ${KIPRJMOD}/AP_zesilovac-rescue.lib)(options "")(descr ""))
-)
