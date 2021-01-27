@@ -702,20 +702,6 @@ Text GLabel 2000 4150 2    50   Input ~ 0
 SYNC
 Text GLabel 4450 3300 0    50   Input ~ 0
 SYNC
-Connection ~ 950  1600
-Wire Wire Line
-	850  1600 950  1600
-$Comp
-L power:GND #PWR01
-U 1 1 5FE1575A
-P 850 1600
-F 0 "#PWR01" H 850 1350 50  0001 C CNN
-F 1 "GND" H 855 1427 50  0000 C CNN
-F 2 "" H 850 1600 50  0001 C CNN
-F 3 "" H 850 1600 50  0001 C CNN
-	1    850  1600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	950  1850 950  1600
 Wire Wire Line
@@ -1414,4 +1400,18 @@ Wire Wire Line
 	3850 2400 3850 2500
 Wire Wire Line
 	3850 2400 4550 2400
+Wire Wire Line
+	950  1850 950  1950
+Connection ~ 950  1850
+$Comp
+L power:GND2 #PWR?
+U 1 1 60011567
+P 950 1950
+F 0 "#PWR?" H 950 1700 50  0001 C CNN
+F 1 "GND2" H 955 1777 50  0000 C CNN
+F 2 "" H 950 1950 50  0001 C CNN
+F 3 "" H 950 1950 50  0001 C CNN
+	1    950  1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

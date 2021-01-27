@@ -300,7 +300,6 @@ F 3 "" H 1350 750 50  0001 C CNN
 	1    1350 750 
 	1    0    0    -1  
 $EndComp
-Connection ~ 1350 650 
 $Comp
 L Device:R R5
 U 1 1 5FE305D6
@@ -773,12 +772,6 @@ Text GLabel 1500 1050 0    50   Input ~ 0
 13
 Text GLabel 4450 1700 0    50   Input ~ 0
 13
-Text GLabel 1900 650  2    50   Input ~ 0
-15
-Text GLabel 4450 1800 0    50   Input ~ 0
-15
-Wire Wire Line
-	1350 650  1900 650 
 Wire Notes Line
 	11150 550  11150 6450
 Wire Notes Line
@@ -791,8 +784,6 @@ Text GLabel 2200 2750 2    50   Input ~ 0
 4
 Text GLabel 4450 3000 0    50   Input ~ 0
 4
-Text GLabel 4450 1600 0    50   Input ~ 0
-15
 Wire Wire Line
 	6050 3800 6050 3900
 $Comp
@@ -953,11 +944,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2100 6050 2100
 Wire Wire Line
-	4450 1600 4550 1600
-Wire Wire Line
 	4450 1700 4550 1700
-Wire Wire Line
-	4450 1800 4550 1800
 Wire Wire Line
 	4450 1900 4550 1900
 Wire Wire Line
@@ -1404,14 +1391,34 @@ Wire Wire Line
 	950  1850 950  1950
 Connection ~ 950  1850
 $Comp
-L power:GND2 #PWR?
+L power:GND2 #PWR0102
 U 1 1 60011567
 P 950 1950
-F 0 "#PWR?" H 950 1700 50  0001 C CNN
+F 0 "#PWR0102" H 950 1700 50  0001 C CNN
 F 1 "GND2" H 955 1777 50  0000 C CNN
 F 2 "" H 950 1950 50  0001 C CNN
 F 3 "" H 950 1950 50  0001 C CNN
 	1    950  1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1800 4100 1600
+Wire Wire Line
+	4100 1600 4550 1600
+Wire Wire Line
+	4100 1800 4550 1800
+Wire Wire Line
+	4100 1800 4100 1900
+Connection ~ 4100 1800
+$Comp
+L power:GND #PWR?
+U 1 1 600DED97
+P 4100 1900
+F 0 "#PWR?" H 4100 1650 50  0001 C CNN
+F 1 "GND" H 4105 1727 50  0000 C CNN
+F 2 "" H 4100 1900 50  0001 C CNN
+F 3 "" H 4100 1900 50  0001 C CNN
+	1    4100 1900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
