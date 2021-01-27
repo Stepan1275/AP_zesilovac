@@ -1,0 +1,357 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SOP65P810X115-33N
+$EndINDEX
+$MODULE SOP65P810X115-33N
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOP65P810X115-33N
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.85014 -6.4972 1 1 0 0.05 N V 21 "SOP65P810X115-33N"
+T1 -0.20669 6.4856 1 1 0 0.05 N V 21 "VAL**"
+DS 3.05 -5.4 3.05 -5.5 0.127 21
+DS -3.05 5.4 -3.05 5.5 0.127 21
+DS -3.05 5.5 3.05 5.5 0.127 21
+DS 3.05 5.5 3.05 5.4 0.127 21
+DS 3.05 -5.5 -3.05 -5.5 0.127 21
+DS -3.05 -5.5 -3.05 -5.4 0.127 21
+DS -3.0988 -4.7244 -3.0988 -5.0292 0 27
+DS -3.0988 -4.064 -3.0988 -4.3688 0 27
+DS -3.0988 -3.429 -3.0988 -3.7338 0 27
+DS -3.0988 -2.7686 -3.0988 -3.0734 0 27
+DS -3.0988 -2.1336 -3.0988 -2.413 0 27
+DS -3.0988 -1.4732 -3.0988 -1.778 0 27
+DS -3.0988 -0.8128 -3.0988 -1.1176 0 27
+DS -3.0988 -0.1778 -3.0988 -0.4826 0 27
+DS -3.0988 0.4826 -3.0988 0.1778 0 27
+DS -3.0988 1.1176 -3.0988 0.8128 0 27
+DS -3.0988 1.778 -3.0988 1.4732 0 27
+DS -3.0988 2.413 -3.0988 2.1336 0 27
+DS -3.0988 3.0734 -3.0988 2.7686 0 27
+DS -3.0988 3.7338 -3.0988 3.429 0 27
+DS -3.0988 4.3688 -3.0988 4.064 0 27
+DS -3.0988 5.0292 -3.0988 4.7244 0 27
+DS 3.0988 4.7244 3.0988 5.0292 0 27
+DS 3.0988 4.064 3.0988 4.3688 0 27
+DS 3.0988 3.429 3.0988 3.7338 0 27
+DS 3.0988 2.7686 3.0988 3.0734 0 27
+DS 3.0988 2.1336 3.0988 2.413 0 27
+DS 3.0988 1.4732 3.0988 1.778 0 27
+DS 3.0988 0.8128 3.0988 1.1176 0 27
+DS 3.0988 0.1778 3.0988 0.4826 0 27
+DS 3.0988 -0.4826 3.0988 -0.1778 0 27
+DS 3.0988 -1.1176 3.0988 -0.8128 0 27
+DS 3.0988 -1.778 3.0988 -1.4732 0 27
+DS 3.0988 -2.413 3.0988 -2.1336 0 27
+DS 3.0988 -3.0734 3.0988 -2.7686 0 27
+DS 3.0988 -3.7338 3.0988 -3.429 0 27
+DS 3.0988 -4.3688 3.0988 -4.064 0 27
+DS 3.0988 -5.0292 3.0988 -4.7244 0 27
+DS -3.05 5.5 3.05 5.5 0.127 27
+DS 3.05 5.5 3.05 -5.5 0.127 27
+DS 3.05 -5.5 -3.05 -5.5 0.127 27
+DS -3.05 -5.5 -3.05 5.5 0.127 27
+DS -4.76 -5.33 -3.35 -5.33 0.05 26
+DS -3.35 -5.33 -3.35 -5.75 0.05 26
+DS -3.35 -5.75 3.35 -5.75 0.05 26
+DS 3.35 -5.75 3.35 -5.33 0.05 26
+DS 3.35 -5.33 4.76 -5.33 0.05 26
+DS 4.76 -5.33 4.76 5.33 0.05 26
+DS 4.76 5.33 3.3 5.33 0.05 26
+DS 3.3 5.33 3.3 5.75 0.05 26
+DS 3.3 5.75 -3.3 5.75 0.05 26
+DS -3.3 5.75 -3.3 5.33 0.05 26
+DS -3.3 5.33 -4.76 5.33 0.05 26
+DS -4.76 5.33 -4.76 -5.33 0.05 26
+DP 0 0 0 0 4 0 19
+Dl 0.185 -1.535
+Dl 1.485 -1.535
+Dl 1.485 -0.185
+Dl 0.185 -0.185
+DP 0 0 0 0 4 0 19
+Dl -1.485 -1.535
+Dl -0.185 -1.535
+Dl -0.185 -0.185
+Dl -1.485 -0.185
+DP 0 0 0 0 4 0 19
+Dl -1.485 0.185
+Dl -0.185 0.185
+Dl -0.185 1.535
+Dl -1.485 1.535
+DP 0 0 0 0 4 0 19
+Dl 0.185 0.185
+Dl 1.485 0.185
+Dl 1.485 1.535
+Dl 0.185 1.535
+DC -5.08 -5.08 -4.98 -5.08 0.2 21
+DC -5.08 -5.08 -4.98 -5.08 0.2 27
+$PAD
+Sh "1" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 -4.875
+$EndPAD
+$PAD
+Sh "33" R 3.71 3.81 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 -4.225
+$EndPAD
+$PAD
+Sh "3" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 -3.575
+$EndPAD
+$PAD
+Sh "4" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 -2.925
+$EndPAD
+$PAD
+Sh "5" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 -2.275
+$EndPAD
+$PAD
+Sh "6" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 -1.625
+$EndPAD
+$PAD
+Sh "7" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 -0.975
+$EndPAD
+$PAD
+Sh "8" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 -0.325
+$EndPAD
+$PAD
+Sh "9" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 0.325
+$EndPAD
+$PAD
+Sh "10" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 0.975
+$EndPAD
+$PAD
+Sh "11" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 1.625
+$EndPAD
+$PAD
+Sh "12" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 2.275
+$EndPAD
+$PAD
+Sh "13" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 2.925
+$EndPAD
+$PAD
+Sh "14" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 3.575
+$EndPAD
+$PAD
+Sh "15" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 4.225
+$EndPAD
+$PAD
+Sh "16" R 1.57 0.41 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -3.72 4.875
+$EndPAD
+$PAD
+Sh "17" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 4.875
+$EndPAD
+$PAD
+Sh "18" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 4.225
+$EndPAD
+$PAD
+Sh "19" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 3.575
+$EndPAD
+$PAD
+Sh "20" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 2.925
+$EndPAD
+$PAD
+Sh "21" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 2.275
+$EndPAD
+$PAD
+Sh "22" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 1.625
+$EndPAD
+$PAD
+Sh "23" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 0.975
+$EndPAD
+$PAD
+Sh "24" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 0.325
+$EndPAD
+$PAD
+Sh "25" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 -0.325
+$EndPAD
+$PAD
+Sh "26" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 -0.975
+$EndPAD
+$PAD
+Sh "27" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 -1.625
+$EndPAD
+$PAD
+Sh "28" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 -2.275
+$EndPAD
+$PAD
+Sh "29" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 -2.925
+$EndPAD
+$PAD
+Sh "30" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 -3.575
+$EndPAD
+$PAD
+Sh "31" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 -4.225
+$EndPAD
+$PAD
+Sh "32" R 1.57 0.41 0 0 1800
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 3.72 -4.875
+$EndPAD
+$EndMODULE SOP65P810X115-33N
